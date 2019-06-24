@@ -2,13 +2,13 @@
 import React from 'react';
 import image from '../../public/images/home_slider_1.jpg'
 import { Parallax, Background } from 'react-parallax';
+import HeadSearch from './headSearch'
 
 
 class IndexHome extends React.Component{
   constructor(props){
     super(props)
   }
-
 
 
   render(){
@@ -30,6 +30,7 @@ class IndexHome extends React.Component{
                   </div>
                 </div>
               </div>
+              <HeadSearch/>
             </div>
           </div>
         </Parallax>

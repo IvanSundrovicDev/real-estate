@@ -87,7 +87,7 @@ class Navigation extends React.Component{
             </div>
           </div>
         </nav>
-        <div className={this.state.open ? 'additional' : 'hidden'} onMouseLeave={() => this.setState({open:false, id:null})}>
+      {/*  <div className={this.state.open ? 'additional' : 'hidden'} onMouseLeave={() => this.setState({open:false, id:null})}>
           <div className="container">
             <div className={this.state.id === "buy" ? 'additional_content' : 'hidden'}>
               <div className="list-row">
@@ -103,6 +103,7 @@ class Navigation extends React.Component{
             </div>
           </div>
         </div>
+        */}
         <div id="myNav" style={navHeight} className="overlay">
 
           <a href="" className="closebtn" onClick={this.closeNav}>&times;</a>
